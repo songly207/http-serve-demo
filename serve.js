@@ -91,7 +91,20 @@ server.listen([port][, host][, backlog][, callback])提供了四个可选参数�
 */
 
 server.listen(3000,'127.0.0.1', function () {
-    console.log('running')
+    console.log('serve in running on http://localhost:3000');
+
+    let child_process = require('child_process')
+    url = 'http://localhost:3000/index.html';
+    //'http://' + youUrl;
+
+    if (process.platform == 'wind32') {
+        cmd = 'start "%ProgramFiles%\Internet Explorer\iexplore.exe"';
+    } else if (process.platform == 'linux') {
+        cmd = 'xdg-open';
+    } else if (process.platform == 'darwin') {
+        cmd = 'open';
+    }
+    child_process.exec(`${cmd} "${url}"`);
 });
 
 
