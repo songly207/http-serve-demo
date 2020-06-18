@@ -1,0 +1,61 @@
+{
+	"path": null,
+	"code": "10000",
+	"msg": "请求成功",
+	"body": {
+		"data": {
+			"titleList": ["助贷管理平台-信托计划配置表", "钱包app用户映射信息表（全量）"],
+			"manageInfoList": [{
+				"id": 211,
+				"manageDatabase": "ods_jloanop",
+				"manageTable": "trust_plan_df",
+				"manageUserGroup": "",
+				"manageTitle": "助贷管理平台-信托计划配置表",
+				"applyType": 1,
+				"applyTime": 1546841335000,
+				"applyUser": "v_daiyuankai_dxm",
+				"manageStatus": 0,
+				"status": 1,
+				"edwDataId": 268,
+				"completeStatus": 0,
+				"createTime": 1546841335000,
+				"updateTime": 1546841335000,
+				"edwStatus": 0,
+				"fdwId": 0,
+				"approveNote": "",
+				"fFailReason": "",
+				"fdwProcessId": 0
+			}, {
+				"id": 155,
+				"manageDatabase": "ods_app_db_0",
+				"manageTable": "t_walletapp_push_users_map_0_df",
+				"manageUserGroup": "fsg_rcc_wallet_appmain_rd",
+				"manageTitle": "钱包app用户映射信息表（全量）",
+				"applyType": 2,
+				"applyTime": 1541831134000,
+				"applyUser": "wutao01_dxm",
+				"manageStatus": 0,
+				"status": 1,
+				"edwDataId": 210,
+				"completeStatus": 0,
+				"createTime": 1541831134000,
+				"updateTime": 1541831134000,
+				"edwStatus": 0,
+				"fdwId": 0,
+				"approveNote": "",
+				"fFailReason": "",
+				"fdwProcessId": 0
+			}]
+		},
+		"page": {
+			"currentPage": 1,
+			"pageSize": 30,
+			"pageTotal": 1,
+			"startItme": 0,
+			"startTime": null,
+			"endTime": null,
+			"total": 2
+		}
+	},
+	"extra": null
+}

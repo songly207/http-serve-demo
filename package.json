@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "serve": "node serve.js",
+    "json_serve": "node mock/start.js",
+    "mock": "node mock/start",
+    "dev": "concurrently \"npm run serve\" \"npm run mock\""
+  },
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}

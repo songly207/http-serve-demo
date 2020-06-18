@@ -1,0 +1,31 @@
+{
+  "body": {
+    "data": {
+      "applyTime": 0,
+      "auditor": "",
+      "createTime": 1530085164000,
+      "dataFields": "[{\"name\":\"activity_id\",\"type\":\"string\",\"level\":\"13\",\"is_null\":\"1\",\"is_mask\":\"0\",\"detail\":\"活动ID\",\"remark\":\"\",\"remarkCode\":\"0\"},{\"name\":\"benefit_id\",\"type\":\"string\",\"level\":\"13\",\"is_null\":\"1\",\"is_mask\":\"0\",\"detail\":\"具体某种权益规则的id 比如，type=1，为优惠券规则id；type=2为反现策略ID\",\"remark\":\"\",\"remarkCode\":\"0\"}]",
+      "dataName": "prom_benefit_history_df",
+      "dataSize":"",
+      "edwType": "",
+      "fdwDataType": "QueryEngine",
+      "fdwDatabase": "ods_fso_icash_promotion",
+      "fdwDetail": "记录用户发放权益（优惠券）",
+      "fdwNamespace": "fdw",
+      "fdwTable": "prom_benefit_history_df",
+      "fdwTitle": "用户权益流水表（全量）",
+      "fdwUserGroup": "fsg_rcc_opsupport_fmsp_rd",
+      "id": 25,
+      "odsType": "优惠券系统",
+      "publishTime": 1530085164000,
+      "publishUser": "liujianrong",
+      "runCycle": "",
+      "status": 2,
+      "updateTime": 1530085164000
+    }
+  },
+  "code": "10000",
+  "extra": null,
+  "msg": null,
+  "path": null
+}

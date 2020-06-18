@@ -1,0 +1,72 @@
+{
+  "path": null,
+  "code": "10000",
+  "msg": null,
+  "body": {
+    "remarkCode": [
+      {
+        "label": "个人设备编码",
+        "value": "CUID"
+      },
+      {
+        "label": "其它",
+        "value": "其它"
+      },
+      {
+        "label": "主场景基于用户session生成的个人标识",
+        "value": "Icoshuid"
+      },
+      {
+        "label": "信贷业务后台基于身份证生成个人ID",
+        "value": "CMID"
+      },
+      {
+        "label": "Passport账号",
+        "value": "BID"
+      },
+      {
+        "label": "中国公民身份账号",
+        "value": "身份证号"
+      },
+      {
+        "label": "钱包支付基于身份证生成个人ID",
+        "value": "CID"
+      },
+      {
+        "label": "个人微信登录账号",
+        "value": "微信账号"
+      }
+    ],
+    "maskCode":[
+      {"label":"否","value":"0"},
+      {"label":"按身份证脱敏","value":"1"},
+      {"label":"按手机号脱敏","value":"2"},
+      {"label":"按银行卡号脱敏","value":"3"},
+      {"label":"按邮箱地址脱敏","value":"4"},
+      {"label":"按ip脱敏","value":"6"},
+      {"label":"按名称脱敏","value":"7"},
+      {"label":"按日期脱敏","value":"8"},
+      {"label":"按公司名称脱敏","value":"9"}
+    ],
+    "level":[
+      {"label":"公开(L1)","value":"11"},
+      {"label":"保密(L2)","value":"12"},
+      {"label":"机密(L3)","value":"13"},
+      {"label":"绝密(L4)","value":"14"},
+      {"label":"私密(L5)","value":"15"}
+    ],
+    "isNull":[
+      {"label":"否","value":"1"},
+      {"label":"是","value":"2"}
+    ],
+    "status":[
+      {"label":"草稿","value":"0"},
+      {"label":"待审核","value":"1"},
+      {"label":"通过","value":"2"},
+      {"label":"拒绝","value":"3"},
+      {"label":"超期失效","value":"4"},
+      {"label":"取消申请","value":"5"}
+    ]
+  },
+  "extra": null
+}

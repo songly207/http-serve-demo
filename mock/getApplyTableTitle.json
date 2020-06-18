@@ -1,0 +1,15 @@
+{
+    "path": null,
+    "code": "10000",
+    "msg": null,
+    "body": {
+        "data": {
+            "tableTitleList": [
+                "用户权益流水表",
+                "用户信息表",
+                "用户XX表"
+            ]
+        }
+    },
+    "extra": null
+}

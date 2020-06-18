@@ -1,0 +1,48 @@
+{
+	"path": null,
+	"code": "10000",
+	"msg": "请求成功",
+	"body": {
+		"data": {
+			"processDetail": null,
+			"operatorList": [1],
+			"manageInfoDetail": {
+				"id": 358,
+				"dataName": "order_info_df",
+				"fdwDatabase": "ods_baidu_merchant_business",
+				"fdwTable": "order_info_df",
+				"fdwUserGroup": "",
+				"publishTime": 1553754435000,
+				"applyTime": 1,
+				"status": 2,
+				"createTime": 1553752231000,
+				"updateTime": 1553754435000,
+				"publishUser": "ningyandong_dxm",
+				"auditor": "v_changyibin_dxm",
+				"releasedId": 0,
+				"fdwNamespace": "fdw",
+				"fdwDataType": "QueryEngine",
+				"fdwTitle": "CCAPP的订单数据",
+				"runCycle": "",
+				"dataSize": "",
+				"dataFields": [{"remarkCode":"0","customerType":null,"level":"15","is_null":"1","name":"balance_pay_amount","is_mask":"0","remark":"","detail":"余额支付金额","type":"double"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"business_type","is_mask":"0","remark":"","detail":"业务类型","type":"string"},{"remarkCode":"0","customerType":null,"level":"15","is_null":"1","name":"credit_pay_amount","is_mask":"0","remark":"","detail":"信用支付金额","type":"double"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"deliverbalancecharge","is_mask":"0","remark":"","detail":"百度外卖的支付场景","type":"int"},{"remarkCode":"0","customerType":null,"level":"15","is_null":"1","name":"easy_pay_amount","is_mask":"0","remark":"","detail":"快捷支付金额","type":"double"},{"remarkCode":"0","customerType":null,"level":"15","is_null":"1","name":"ebank_pay_amount","is_mask":"0","remark":"","detail":"网银支付金额","type":"double"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"event_hash_code","is_mask":"0","remark":"","detail":"event_hash_code","type":"string"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"event_type","is_mask":"0","remark":"","detail":"事件类型","type":"string"},{"remarkCode":"0","customerType":null,"level":"15","is_null":"1","name":"expenditures_amount","is_mask":"0","remark":"","detail":"expenditures金额","type":"double"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"financetype","is_mask":"0","remark":"","detail":"理财类型","type":"string"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"goods_name","is_mask":"0","remark":"","detail":"商品名称","type":"string"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"loss_type","is_mask":"0","remark":"","detail":"被盗类型","type":"int"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"mcc_code","is_mask":"0","remark":"","detail":"mcc码","type":"string"},{"remarkCode":"0","customerType":null,"level":"12","is_null":"1","name":"occur_time","is_mask":"0","remark":"","detail":"发生时间","type":"string"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"parent_id","is_mask":"0","remark":"","detail":"父级id","type":"bigint"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"pay_id","is_mask":"0","remark":"","detail":"支付id","type":"bigint"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"pay_time","is_mask":"0","remark":"","detail":"交易付款时间","type":"string"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"pay_type","is_mask":"0","remark":"","detail":"盗用类型","type":"string"},{"remarkCode":"0","customerType":null,"level":"15","is_null":"1","name":"revenues_amount","is_mask":"0","remark":"","detail":"revenues金额","type":"double"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"sessionid","is_mask":"0","remark":"","detail":"会话ID","type":"bigint"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"shop_brand_id","is_mask":"0","remark":"","detail":"门店品牌ID","type":"string"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"shop_brand_name","is_mask":"0","remark":"","detail":"门店品牌名称","type":"string"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"shopbiztype","is_mask":"0","remark":"","detail":"店铺业务类型","type":"string"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"source_flag","is_mask":"0","remark":"","detail":"交易终端","type":"string"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"sp_id","is_mask":"0","remark":"","detail":"商户号","type":"string"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"stat_dt","is_mask":"0","remark":"","detail":"数据入库时间","type":"string"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"state","is_mask":"0","remark":"","detail":"状态","type":"int"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"transidext","is_mask":"0","remark":"","detail":"外部订单号","type":"bigint"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"userid","is_mask":"0","remark":"","detail":"收款方id","type":"string"},{"remarkCode":"0","customerType":null,"level":"13","is_null":"1","name":"dt","is_mask":"0","remark":"","detail":"按天分区字段","type":"string"}],
+				"fdwDetail": "每天全量的数据",
+				"fdwDataSource": "fsg_rcc_opsupport_fasp_rd",
+				"publishType": 0,
+				"tableProcessLogic": "订单数据",
+				"processInfo": "",
+				"dimTypeMap": {
+					"应用主题(ads)": ["个人行为信息", "测试234", "11111", "测试6"],
+					"数据源(ods)": ["FBI"],
+					"数据主题(edw)": ["客户经营模型库(DM)", "风控主题"]
+				},
+				"dimTypeIdMap": {
+					"应用主题(ads)": [118, 121, 127, 129],
+					"数据源(ods)": [28],
+					"数据主题(edw)": [40, 100]
+				}
+			}
+		}
+	},
+	"extra": null
+}

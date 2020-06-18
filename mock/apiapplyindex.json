@@ -1,0 +1,48 @@
+{
+  "path":null,
+  "code":"10000",
+  "msg":null,
+  "body":{
+    "data":{
+      "availableTime":{
+        "93":"3个月",
+        "186":"半年"
+      },
+      "group":[
+        "fsg_rcc_loan_bizcommon_rd",
+        "fsg_rcc_databiz_dataimport_rd",
+        "fsg_rcc_fdw_ecif_rd",
+        "g_fsg_fdw",
+        "fsg_rcc_fdw_etron_rd",
+        "fsg_rcc_fdw_etron_test"
+      ],
+      "level":{
+        "l1":"公开(L1)",
+        "l2":"保密(L2)",
+        "l3":"机密(L3)",
+        "l4":"绝密(L4)",
+        "l5":"私密(L5)"
+      },
+      "isNull":{
+        "1":"否",
+        "2":"是"
+      },
+      "fdwUseType":{
+        "1": "线上业务",
+        "2": "线下数据加工、建模",
+        "3": "线上统计报表",
+        "4": "线下调研分析",
+        "5": "线下效果评估",
+        "6": "其他"
+      },
+      "fdwUseMode":{
+        "1": "在源环境查看或加工，不拖走数据",
+        "2": "拖走数据在开发机存储",
+        "3": "拖走数据在本地办公环境存储",
+        "4": "拖走数据在隔离域存储",
+        "5": "其他"
+      }
+    }
+  },
+  "extra":null
+}

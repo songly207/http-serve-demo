@@ -1,0 +1,102 @@
+{
+  "path": null,
+  "code": "10000",
+  "msg": null,
+  "body": {
+    "data": {
+      "applyInfoList": [
+        {
+          "id" : 111,
+          "fdwTable": "table_name_1",
+          "fdwDetail": "fdw表描述1",
+          "fdwTitle": "表标题11",
+          "fdwApplyType": 2,
+          "fdwAvailableTime": 93,
+          "fdwRemark": "备注",
+          "fdwReleaseId": 0,
+          "fdwBackground": "需求背景",
+          "fdwExpect": "预期收益",
+          "fdwUseMode": "使用方式",
+          "fdwUseEnv": "使用环境",
+          "fdwLsoName": "隔离域名称0",
+          "fdwGroupName": "申请用户选择组",
+          "fdwUseType": "使用类型111",
+          "fdwDataFields":  "[{\"name\":\"activity_id\",\"type\":\"string\",\"level\":\"13\",\"is_null\":\"1\",\"is_mask\":\"0\",\"detail\":\"活动ID\",\"remark\":\"\",\"remarkCode\":\"0\"},{\"name\":\"benefit_id\",\"type\":\"string\",\"level\":\"13\",\"is_null\":\"1\",\"is_mask\":\"0\",\"detail\":\"具体某种权益规则的id 比如，type=1，为优惠券规则id；type=2为反现策略ID\",\"remark\":\"\",\"remarkCode\":\"0\"}]",
+          "fdwCreateTime": 1535790786504,
+          "fdwModifyTime": 1535790786504,
+          "status": 0,
+          "createTime": 1535790786504,
+          "updateTime": 1535790786504,
+          "applyUser": "发布者111111",
+          "publishId": 1111122222333,
+          "processInfo": "",
+          "applyFields": "[{\"name\":\"activity_id\",\"type\":\"string\",\"level\":\"13\",\"is_null\":\"1\",\"is_mask\":\"0\",\"detail\":\"活动ID\",\"remark\":\"\",\"remarkCode\":\"0\"},{\"name\":\"benefit_id\",\"type\":\"string\",\"level\":\"13\",\"is_null\":\"1\",\"is_mask\":\"0\",\"detail\":\"具体某种权益规则的id 比如，type=1，为优惠券规则id；type=2为反现策略ID\",\"remark\":\"\",\"remarkCode\":\"0\"}]"
+        },
+        {
+          "id" : 222,
+          "fdwTable": "table_name_2",
+          "fdwDetail": "fdw表描述2",
+          "fdwTitle": "表标题122",
+          "fdwApplyType": 2,
+          "fdwAvailableTime": 93,
+          "fdwRemark": "备注",
+          "fdwReleaseId": 0,
+          "fdwBackground": "需求背景",
+          "fdwExpect": "预期收益",
+          "fdwUseMode": "使用方式",
+          "fdwUseEnv": "使用环境",
+          "fdwLsoName": "隔离域名称0",
+          "fdwGroupName": "申请用户选择组",
+          "fdwUseType": "使用类型111",
+          "fdwDataFields": "用户所选字段11111",
+          "fdwCreateTime": 1535790786504,
+          "fdwModifyTime": 1535790786504,
+          "status": 2,
+          "createTime": 1535790786504,
+          "updateTime": 1535790786504,
+          "applyUser": "发布者23333",
+          "publishId": 1111122222333,
+          "processInfo": ""
+        },
+        {
+          "id" : 333,
+          "fdwTable": "table_name_3",
+          "fdwDetail": "fdw表描述3",
+          "fdwTitle": "表标题333",
+          "fdwApplyType": 2,
+          "fdwAvailableTime": 93,
+          "fdwRemark": "备注",
+          "fdwReleaseId": 0,
+          "fdwBackground": "需求背景",
+          "fdwExpect": "预期收益",
+          "fdwUseMode": "使用方式",
+          "fdwUseEnv": "使用环境",
+          "fdwLsoName": "隔离域名称0",
+          "fdwGroupName": "申请用户选择组",
+          "fdwUseType": "使用类型3",
+          "fdwDataFields": "用户所选字段3",
+          "fdwCreateTime": 1535790786504,
+          "fdwModifyTime": 1535790786504,
+          "status": 1,
+          "createTime": 1535790786504,
+          "updateTime": 1535790786504,
+          "applyUser": "发布者23333",
+          "publishId": 1111122222333,
+          "processInfo": ""
+        }
+
+      ],
+      "page": {
+        "currentPage": 1,
+        "endTime": null,
+        "pageSize": 10,
+        "pageTotal": 1,
+        "startItme": 0,
+        "startTime": null,
+        "total": 1
+      }
+    }
+
+  },
+  "extra": null
+}
